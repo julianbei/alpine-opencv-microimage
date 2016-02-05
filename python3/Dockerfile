@@ -6,8 +6,8 @@ RUN echo -e '@edge http://nl.alpinelinux.org/alpine/edge/main\n@testing http://n
 
 #3
 RUN apk update && apk upgrade && apk add --update \
-  python \
-  python-dev \
+  python3 \
+  python3-dev \
   make \
   cmake \
   gcc \
