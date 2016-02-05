@@ -46,7 +46,7 @@ ENV CC /usr/bin/clang
 ENV CXX /usr/bin/clang++
 
 #5 opencv3
-RUN cd /opt && \
+RUN RUN mkdir /opt && cd /opt && \
   wget https://github.com/Itseez/opencv/archive/3.1.0.zip && \
   unzip 3.1.0.zip && \
   cd /opt/opencv-3.1.0 && \
