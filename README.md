@@ -4,7 +4,7 @@
 A microimage with python and openCV based on Alpine Linux
 The default python version is 3
 The default openCV version is 3.1
-[![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:latest.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:latest 'Get your own badge on imagelayers.io')
+
 ## Installation
 ```
 docker pull julianbei/alpine-opencv-microimage:latest
