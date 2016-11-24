@@ -5,6 +5,8 @@ A microimage with python and openCV based on Alpine Linux
 The default python version is 3
 The default openCV version is 3.1
 
+con be found on [docker hub](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/)
+
 ## Installation
 ```
 docker pull julianbei/alpine-opencv-microimage:latest
