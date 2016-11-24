@@ -1,4 +1,4 @@
-[![Docker Stars](https://img.shields.io/docker/stars/julianbei/alpine-opencv-microimage.svg?style=flat-square)](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/) [![Docker Pulls](https://img.shields.io/docker/pulls/julianbei/alpine-opencv-microimage.svg?style=flat-square)](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/)
+[![Docker Stars](https://img.shields.io/docker/stars/julianbei/alpine-opencv-microimage.svg?style=flat-square)](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/) [![Docker Pulls](https://img.shields.io/docker/pulls/julianbei/alpine-opencv-microimage.svg?style=flat-square)](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/)[![Docker Automated buil](https://img.shields.io/docker/automated/jrottenberg/ffmpeg.svg?style=flat-square)](https://hub.docker.com/r/julianbei/alpine-opencv-microimage/)
 
 # alpine-opencv-microimage
 A microimage with python and openCV based on Alpine Linux
