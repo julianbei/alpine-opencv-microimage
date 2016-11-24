@@ -30,12 +30,13 @@ RUN apk add --update \
   libpng-dev \
   libjasper \
   libdc1394-dev \
+  clang-dev \
   clang \
   tiff-dev \
   libwebp-dev \
-  py-numpy-dev \
+  py-numpy-dev@edgunity \
   py-scipy-dev@testing \
-  openblas-dev
+  openblas-dev@edgunity \
   linux-headers
 
 #5 defining compilers

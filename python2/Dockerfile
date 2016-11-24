@@ -30,6 +30,7 @@ RUN apk add --update \
   libpng-dev \
   libjasper \
   libdc1394-dev \
+  clang-dev \
   clang \
   tiff-dev \
   libwebp-dev \
