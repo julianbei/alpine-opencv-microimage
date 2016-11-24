@@ -9,8 +9,8 @@ RUN apk update && apk upgrade
 
 #4
 RUN apk add --update \
-  python \
-  python-dev \
+  python3 \
+  python3-dev \
   make \
   cmake \
   gcc \
@@ -45,7 +45,7 @@ ENV CXX /usr/bin/clang++
 
 #6 opencv3
 RUN mkdir /opt && cd /opt && \
-  wget https://github.com/Itseez/opencv/archive/3.1.0.zip && \
+  wget https://github.com/opencv/opencv/archive/3.1.0.zip && \
   unzip 3.1.0.zip && \
   cd /opt/opencv-3.1.0 && \
   mkdir build && \
