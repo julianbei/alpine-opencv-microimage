@@ -24,9 +24,7 @@ base:
 |--------|----------------|----------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | latest | 3              | 3.1            | [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:latest.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:latest 'Get your own badge on imagelayers.io')  |
 | p2-3.1 | 2              | 3.1            | [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:latest.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:python2 'Get your own badge on imagelayers.io') |
-| p2-2.4 | 2              | 2.4            | [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:latest.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:python2 'Get your own badge on imagelayers.io') |
 | p3-3.1 | 3              | 3.1            | [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:p3-3.1.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:p3-3.1 'Get your own badge on imagelayers.io')  |
-| p3-2.4 | 3              | 2.4            | [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:p3-2.4.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:p3-2.4 'Get your own badge on imagelayers.io')  |
 
 ## Latest
 This image contains python3 and openCV 3.1
@@ -42,21 +40,9 @@ FROM julianbei/alpine-opencv-microimage:latest
 FROM julianbei/alpine-opencv-microimage:p2-3.1
 ```
 
-### openCV 2.4
- [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:latest.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:python2 'Get your own badge on imagelayers.io')
- ```
- FROM julianbei/alpine-opencv-microimage:p2-2.4
- ```
-
 ## Python 3 Image
 ### openCV 3.1
  [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:p3-3.1.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:p3-3.1 'Get your own badge on imagelayers.io')
 ```
 FROM julianbei/alpine-opencv-microimage:p3-3.1
 ```
-
-### openCV 2.4
- [![](https://badge.imagelayers.io/julianbei/alpine-opencv-microimage:p3-2.4.svg)](https://imagelayers.io/?images=julianbei/alpine-opencv-microimage:p3-2.4 'Get your own badge on imagelayers.io')
- ```
- FROM julianbei/alpine-opencv-microimage:p3-2.4
- ```
