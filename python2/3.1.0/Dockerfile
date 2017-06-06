@@ -1,5 +1,5 @@
 #1 from base alpine
-FROM alpine:3.4
+FROM alpine:3.6
 
 #2 Add Edge and bleeding repos
 RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n@edge http://nl.alpinelinux.org/alpine/edge/main\n@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
