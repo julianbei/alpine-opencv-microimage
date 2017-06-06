@@ -46,8 +46,8 @@ ENV CXX /usr/bin/clang++
 #6 opencv3
 RUN mkdir /opt && cd /opt && \
   wget https://github.com/opencv/opencv/archive/3.2.0.zip && \
-  unzip 3.1.0.zip && \
-  cd /opt/opencv-3.1.0 && \
+  unzip 3.2.0.zip && \
+  cd /opt/opencv-3.2.0 && \
   mkdir build && \
   cd build && \
   cmake -D CMAKE_BUILD_TYPE=RELEASE -D CMAKE_INSTALL_PREFIX=/usr/local -D WITH_FFMPEG=NO \
