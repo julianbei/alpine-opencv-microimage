@@ -73,5 +73,5 @@ RUN mkdir -p /opt/opencv-${OPENCV_VERSION}/build && \
   .. && \
   make VERBOSE=1 && \
   make && \
-  make install \
+  make install && \
   rm -rf /opt/opencv-${OPENCV_VERSION}
