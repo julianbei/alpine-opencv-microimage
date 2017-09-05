@@ -1,13 +1,9 @@
-#1 from base alpine
 FROM alpine:3.5
 
-#2 Add Edge and bleeding repos
 RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n@edge http://nl.alpinelinux.org/alpine/edge/main\n@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
 
-#3 upgrade System
 RUN apk update && apk upgrade
 
-#4
 RUN apk add --update \
   python \
   python-dev \
@@ -39,11 +35,9 @@ RUN apk add --update \
   openblas-dev \
   linux-headers
 
-#5 defining compilers
 ENV CC /usr/bin/clang
 ENV CXX /usr/bin/clang++
 
-#6 opencv3
 RUN mkdir /opt && cd /opt && \
   wget https://github.com/opencv/opencv/archive/3.1.0.zip && \
   unzip 3.1.0.zip && \
@@ -56,6 +50,4 @@ RUN mkdir /opt && cd /opt && \
   make && \
   make install
 
-
-#7 Clean APK cache
 RUN rm -rf /var/cache/apk/*
