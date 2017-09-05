@@ -1,0 +1,10 @@
+sudo: required
+
+services:
+  - docker
+
+script:
+  - docker build -t python2/3.1 ./python2/3.1.0/
+  - docker build -t python2/3.1 ./python2/3.1.0/
+  - docker build -t python2/3.1 ./python2/3.1.0/
+  - docker build -t python2/3.1 ./python2/3.1.0/
