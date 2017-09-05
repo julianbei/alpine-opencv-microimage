@@ -2,7 +2,8 @@ FROM python:3-alpine3.6
 
 RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n\
 @edge http://nl.alpinelinux.org/alpine/edge/main\n\
-@testing http://nl.alpinelinux.org/alpine/edge/testing'\
+@testing http://nl.alpinelinux.org/alpine/edge/testing\n\
+@community http://dl-cdn.alpinelinux.org/alpine/edge/community'\
   >> /etc/apk/repositories
 
 RUN apk add --update --no-cache \
