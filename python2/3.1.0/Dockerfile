@@ -1,5 +1,5 @@
 #1 from base alpine
-FROM alpine:3.4
+FROM alpine:3.5
 
 #2 Add Edge and bleeding repos
 RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n@edge http://nl.alpinelinux.org/alpine/edge/main\n@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
@@ -34,9 +34,9 @@ RUN apk add --update \
   clang \
   tiff-dev \
   libwebp-dev \
-  py-numpy-dev@edgunity \
+  py-numpy-dev \
   py-scipy-dev@testing \
-  openblas-dev@edgunity \
+  openblas-dev \
   linux-headers
 
 #5 defining compilers

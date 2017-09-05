@@ -9,8 +9,8 @@ RUN apk update && apk upgrade
 
 #4
 RUN apk add --update \
-  python3 \
-  python3-dev \
+  python \
+  python-dev \
   make \
   cmake \
   gcc \
