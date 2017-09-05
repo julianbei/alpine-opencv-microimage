@@ -46,7 +46,7 @@ RUN apk add --update --no-cache \
 ENV CC /usr/bin/clang
 ENV CXX /usr/bin/clang++
 
-ENV OPENCV_VERSION=3.1.0
+ENV OPENCV_VERSION=3.2.0
 
 RUN mkdir /opt && cd /opt && \
   wget https://github.com/opencv/opencv/archive/${OPENCV_VERSION}.zip && \
