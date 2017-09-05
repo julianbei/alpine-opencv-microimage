@@ -1,6 +1,9 @@
 FROM python:3-alpine3.6
 
-RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n@edge http://nl.alpinelinux.org/alpine/edge/main\n@testing http://nl.alpinelinux.org/alpine/edge/testing' >> /etc/apk/repositories
+RUN echo -e '@edgunity http://nl.alpinelinux.org/alpine/edge/community\n\
+@edge http://nl.alpinelinux.org/alpine/edge/main\n\
+@testing http://nl.alpinelinux.org/alpine/edge/testing'\
+  >> /etc/apk/repositories
 
 RUN apk add --update --no-cache \
   # --virtual .build-deps \
@@ -28,7 +31,7 @@ RUN apk add --update --no-cache \
 
       # Provides support for the Tag Image File Format or TIFF (development files)
       tiff-dev \
-      
+
       # Libraries for working with WebP images (development files)
       libwebp-dev \
 
