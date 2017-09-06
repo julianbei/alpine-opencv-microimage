@@ -10,7 +10,7 @@ before_install:
 #  - docker build -t python3:latest ./python3/
 
 script:
-  - docker build -t python2/3.1 ./python2/3.1.0/
+  - ./builds/p2-3.2.sh
 #  - docker build -t python2/3.2 ./python2/3.2.0/
 #  - docker build -t python2/3.3 ./python2/3.3.0/
 #  - docker build -t python3/3.1 ./python3/3.1.0/
