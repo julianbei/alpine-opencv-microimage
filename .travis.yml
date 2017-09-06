@@ -3,15 +3,7 @@ sudo: required
 services:
   - docker
 
-before_install:
-  - apt-get install parallel
-  - docker pull python:2-alpine3.6
-#  - docker pull python:3-alpine3.6
-  - docker build -t python2:latest ./python2/
-#  - docker build -t python3:latest ./python3/
-
 script:
-  - ls builds/*.sh | parallel
-#  - docker build -t python3/3.1 ./python3/3.1.0/
-#  - docker build -t python3/3.2 ./python3/3.2.0/
-#  - docker build -t python3/3.3 ./python3/3.3.0/
+  - ./builds/p2-3.1.sh
+  - ./builds/p2-3.2.sh
+  - ./builds/p2-3.3.sh
