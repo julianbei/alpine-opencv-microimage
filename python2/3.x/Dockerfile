@@ -1,4 +1,4 @@
-FROM python2:latest
+FROM julianbei/alpine-python-datascience-build:p2
 
 ARG OPENCV_VERSION
 
